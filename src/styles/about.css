@@ -1,0 +1,43 @@
+.about-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-container {
+  padding: 20px;
+  max-width: 1000px;
+  min-width: 1000px;
+  margin-left: auto;
+  background: linear-gradient(
+    135deg,
+    rgba(115, 17, 131, 0.1),
+    rgba(99, 3, 202, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(72, 22, 115, 0.37);
+  border-radius: var(--radius-md);
+  padding: 30px;
+}
+
+.about-text-box {
+  padding: 20px;
+  background-color: var(--bg-main);
+  border-radius: var(--radius-md);
+}
+
+.about-section h3 {
+  font-family: "Jaini", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(2rem, 6vw, 4rem);
+}
+
+.about-section img {
+  max-width: 400px;
+}
+
+.about-section p {
+  font-size: clamp(1.25rem, 3vw, 1.5rem);
+}

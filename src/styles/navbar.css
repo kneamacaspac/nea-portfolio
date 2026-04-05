@@ -1,0 +1,19 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar-container {
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 30px;
+  margin: 105px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
