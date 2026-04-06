@@ -9,24 +9,25 @@ function Home() {
         <div className="home-content">
           <div className="home-image-wrapper">
             <img src={heroPhoto} alt="Nea" className="home-image" />
-          </div>
-          <div className="home-text">
-            <h1>Hi, I&apos;m Nea!</h1>
 
             <div className="home-right">
               <p>
                 Explore my journey in digital creation and graphic designs.
                 Enjoy the visuals and experience my visions.
               </p>
-              <a href="#contact" className="contact-button">
+              <a href="#contact" className="contact-button glow-on-hover">
                 Contact Me
               </a>
             </div>
+          </div>
+          <div className="home-text">
+            <h1>Hi, I&apos;m Nea!</h1>
 
             <div className="home-left">
               <p>
-                I’m a Graphic and UI/UX Designer and a Front-end Developer who
-                enjoys turning ideas into clean, interactive experiences.
+                I’m a <strong>Graphic and UI/UX Designer</strong> and a
+                Front-end Developer who enjoys turning ideas into clean,
+                interactive experiences.
               </p>
             </div>
           </div>
