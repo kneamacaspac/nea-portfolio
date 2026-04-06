@@ -4,7 +4,6 @@
 }
 
 .about-container {
-  padding: 20px;
   max-width: 1000px;
   min-width: 1000px;
   margin-left: auto;
@@ -25,6 +24,7 @@
   padding: 20px;
   background-color: var(--bg-main);
   border-radius: var(--radius-md);
+  height: 100%;
 }
 
 .about-section h3 {
@@ -40,4 +40,10 @@
 
 .about-section p {
   font-size: clamp(1.25rem, 3vw, 1.5rem);
+}
+
+.about-section .social-buttons {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
 }

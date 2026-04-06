@@ -1,6 +1,6 @@
 import aboutPhoto from "../assets/images/profile/about-photo.png";
 import SectionTitle from "./SectionTitle";
-//import SocialButtons from "./SocialButtons";
+import SocialButtons from "./SocialButtons";
 import "../styles/about.css";
 
 function About() {
@@ -28,9 +28,9 @@ function About() {
               enjoy creating visual experiences that reflect both personality
               and purpose.
             </p>
-          </div>
 
-          {/*<SocialButtons />*/}
+            <SocialButtons />
+          </div>
         </div>
       </div>
     </section>

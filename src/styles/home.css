@@ -1,8 +1,12 @@
 .home-section {
-  background-color: rgb(24, 24, 24);
   position: relative;
   max-height: 950px;
   min-height: 900px;
+
+  background-image: url("../assets/images/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .home-section h1 {
@@ -59,7 +63,6 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--accent-soft);
   min-height: 30px;
   max-height: 50px;
   min-width: 120px;

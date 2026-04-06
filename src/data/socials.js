@@ -1,4 +1,4 @@
-constsocials = [
+const socials = [
   {
     id: 1,
     name: "Facebook",
@@ -31,4 +31,4 @@ constsocials = [
   },
 ];
 
-exportdefaultsocials;
+export default socials;
