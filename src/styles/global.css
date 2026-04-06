@@ -13,13 +13,13 @@ html {
 
 :root {
   --bg-main: #090010;
-  --bg-card: rgba(255, 255, 255, 0.06);
+  --bg-card: #040012;
   --accent: #b100ff;
   --accent-soft: #7b2cbf;
   --text-main: #ffffff;
   --text-soft: #d8d8d8;
   --border: rgba(255, 255, 255, 0.15);
-  --glow: 0 0 20px rgba(177, 0, 255, 0.2);
+  --glow: 0 0 10px rgba(177, 0, 255, 0.2);
   --radius-lg: 24px;
   --radius-md: 16px;
   --max-width: 1200px;

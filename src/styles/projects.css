@@ -1,14 +1,54 @@
 .projects-section {
-  background-color: rgb(24, 24, 24);
   height: auto;
+  padding-top: 60px;
+  padding-bottom: 0;
 }
 
 .project-card {
-  width: 300px;
-  height: 200px;
+  width: 100%;
+  min-height: 100px;
+  margin: 20px auto;
   border-radius: 20px;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.05);
-  border: var(--border);
-  box-shadow: var(--glow);
+  border: 1px solid rgb(144, 144, 144);
+  background-color: var(--bg-card);
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+}
+
+.project-card {
+  position: relative;
+  cursor: pointer;
+
+
+/* floating image */
+.hover-preview {
+  position: fixed; /* important for floating effect */
+  width: 550px;
+  pointer-events: none; /* prevents flicker */
+  z-index: 999;
+
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.project-number {
+  font-family: "Jaini", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(3rem, 4vw, 5rem);
+  color: var(--text-soft);
+  margin-left: 10px;
+}
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 20px;
+  color: var(--text-soft);
 }
