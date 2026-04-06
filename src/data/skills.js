@@ -10,8 +10,8 @@ import office from "../assets/images/icons/office.png";
 
 export const designTools = [
   { id: 1, name: "Canva", icon: canva, level: 92 },
-  { id: 2, name: "Photoshop", icon: photoshop, level: 72 },
-  { id: 3, name: "Figma", icon: figma, level: 84 },
+  { id: 2, name: "Photoshop", icon: photoshop, level: 62 },
+  { id: 3, name: "Figma", icon: figma, level: 75 },
 ];
 
 export const programmingSkills = [
