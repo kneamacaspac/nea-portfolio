@@ -15,9 +15,16 @@ function Home() {
                 Explore my journey in digital creation and graphic designs.
                 Enjoy the visuals and experience my visions.
               </p>
-              <a href="#contact" className="contact-button glow-on-hover">
-                Contact Me
-              </a>
+              <div className="contact-animation">
+                <a href="#contact" className="contact-button glow-on-hover">
+                  Contact Me
+                </a>
+                <div className="arrow">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
             </div>
           </div>
           <div className="home-text">

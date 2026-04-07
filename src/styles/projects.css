@@ -24,11 +24,10 @@
   cursor: pointer;
 }
 
-/* floating image */
 .hover-preview {
-  position: fixed; /* important for floating effect */
+  position: fixed;
   width: 550px;
-  pointer-events: none; /* prevents flicker */
+  pointer-events: none;
   z-index: 999;
 
   border-radius: 12px;
@@ -51,4 +50,49 @@
   align-items: flex-start;
   margin-left: 20px;
   color: var(--text-soft);
+}
+
+.swiper-pagination {
+  bottom: 0;
+}
+
+.swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background: #a855f7;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+  border-radius: 50%;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #c084fc;
+
+  box-shadow:
+    0 0 8px #c084fc,
+    0 0 16px #a855f7;
+
+  transform: scale(1.2);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #d4d4d4;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 50%;
+  border: solid 0.3px #f3f3f3d6;
+  width: 45px;
+  height: 45px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-button-next svg,
+.swiper-button-prev svg {
+  max-width: 26px;
+  max-height: 26px;
 }

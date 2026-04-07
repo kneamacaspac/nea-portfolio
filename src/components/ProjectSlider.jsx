@@ -1,20 +1,23 @@
+ProjectSlider.jsx;
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper/modules";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import projects from "../data/projects";
+import "swiper/css/navigation";
 
 function ProjectSlider() {
   return (
     <div className="project-slider-wrapper">
       <Swiper
-        modules={[Autoplay, Pagination]}
+        modules={[Autoplay, Pagination, Navigation]}
         spaceBetween={20}
         slidesPerView={3}
         centeredSlides={true}
         loop={true}
         autoplay={{ delay: 2500, disableOnInteraction: false }}
         pagination={{ clickable: true }}
+        navigation={true}
         breakpoints={{
           320: { slidesPerView: 1 },
           768: { slidesPerView: 2 },

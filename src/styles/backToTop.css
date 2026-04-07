@@ -1,0 +1,51 @@
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+
+  width: 52px;
+  height: 52px;
+
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.2rem;
+  cursor: pointer;
+
+  z-index: 1000;
+
+  transition: all 0.3s ease;
+}
+
+/* glow ring */
+.back-to-top::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+
+  border-radius: 50%;
+  background: linear-gradient(45deg, #b100ff, #7b2cbf, #9d4edd, #c77dff);
+
+  filter: blur(6px);
+  opacity: 0;
+  transition: 0.3s;
+  z-index: -1;
+}
+
+/* hover */
+.back-to-top:hover::before {
+  opacity: 1;
+}
+
+.back-to-top:hover {
+  transform: translateY(-6px) scale(1.08);
+}

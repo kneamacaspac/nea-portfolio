@@ -1,0 +1,23 @@
+.footer {
+  background-color: black;
+  min-height: 200px;
+  max-height: 300px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.footer hr {
+  width: 7%;
+  margin-bottom: 20px;
+}
+
+.footer h3 {
+  font-family: Italianno, cursive;
+  font-size: clamp(2.2rem, 4vw, 3.8rem);
+  font-weight: 400;
+  font-style: normal;
+}
