@@ -5,10 +5,19 @@ import "../styles/home.css";
 function Home() {
   return (
     <section id="home" className="home-section">
+      <h1>Hi, I&apos;m Nea!</h1>
       <div className="home-overlay">
         <div className="home-content">
           <div className="home-image-wrapper">
             <img src={heroPhoto} alt="Nea" className="home-image" />
+
+            <div className="home-left">
+              <p>
+                I’m a <strong>Graphic and UI/UX Designer</strong> and a
+                Front-end Developer who enjoys turning ideas into clean,
+                interactive experiences.
+              </p>
+            </div>
 
             <div className="home-right">
               <p>
@@ -25,17 +34,6 @@ function Home() {
                   <span></span>
                 </div>
               </div>
-            </div>
-          </div>
-          <div className="home-text">
-            <h1>Hi, I&apos;m Nea!</h1>
-
-            <div className="home-left">
-              <p>
-                I’m a <strong>Graphic and UI/UX Designer</strong> and a
-                Front-end Developer who enjoys turning ideas into clean,
-                interactive experiences.
-              </p>
             </div>
           </div>
         </div>

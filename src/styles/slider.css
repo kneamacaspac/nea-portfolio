@@ -44,3 +44,49 @@
     transform: translateX(-50%);
   }
 }
+
+@media (max-width: 480px) {
+  .slider-track {
+    position: relative;
+    display: flex;
+    width: max-content;
+    gap: 5px;
+    animation: scrollSlider 30s linear infinite;
+    margin-top: 320px;
+    z-index: 4;
+  }
+
+  .slide-card {
+    flex: 0 0 auto;
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.05);
+    border: var(--border);
+    box-shadow: var(--glow);
+  }
+}
+
+@media (max-width: 1024px) {
+  .slider-track {
+    position: relative;
+    display: flex;
+    width: max-content;
+    gap: 5px;
+    animation: scrollSlider 30s linear infinite;
+    margin-top: 320px;
+    z-index: 4;
+  }
+
+  .slide-card {
+    flex: 0 0 auto;
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.05);
+    border: var(--border);
+    box-shadow: var(--glow);
+  }
+}

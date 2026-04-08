@@ -100,3 +100,15 @@
     background-position: 0 0;
   }
 }
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: clamp(4rem, 13vw, 9rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: clamp(3rem, 13vw, 9rem);
+  }
+}
