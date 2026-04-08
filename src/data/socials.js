@@ -13,18 +13,12 @@ const socials = [
   },
   {
     id: 3,
-    name: "Instagram",
-    link: "https://www.instagram.com/lemoneyd__/",
-    icon: "instagram",
-  },
-  {
-    id: 4,
     name: "Email",
     link: "mailto:macaspackathleennea@gmail.com",
     icon: "email",
   },
   {
-    id: 5,
+    id: 4,
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/kathleen-nea-macaspac-a815a834b/?skipRedirect=true",
     icon: "linkedin",

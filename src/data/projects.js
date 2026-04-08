@@ -2,6 +2,7 @@ import project1 from "../assets/images/projects/project1.png";
 import project2 from "../assets/images/projects/project2.png";
 import project3 from "../assets/images/projects/project3.png";
 import project4 from "../assets/images/projects/project4.png";
+import project5 from "../assets/images/projects/project5.png";
 
 const projects = [
   {
@@ -33,6 +34,13 @@ const projects = [
     title: "Project 04",
     description: "Layout and graphic content for publication.",
     image: project4,
+    category: "graphic",
+  },
+  {
+    id: 5,
+    title: "Project 05",
+    description: "Layout and graphic content for publication.",
+    image: project5,
     category: "graphic",
   },
 ];

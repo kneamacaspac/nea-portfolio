@@ -79,7 +79,7 @@
 .swiper-button-next,
 .swiper-button-prev {
   color: #d4d4d4;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(70, 70, 70, 0.1);
   backdrop-filter: blur(10px);
   border-radius: 50%;
   border: solid 0.3px #f3f3f3d6;
