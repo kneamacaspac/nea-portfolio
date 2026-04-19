@@ -91,7 +91,7 @@
   border-radius: var(--radius-md);
   z-index: 1;
   bottom: 20%;
-  animation: floatTilt 4s ease-in-out infinite;
+  animation: floatTilt 8s ease-in-out infinite;
 }
 
 .animated-about-div {
@@ -112,19 +112,21 @@
   0% {
     transform: translateX(0) rotate(0deg) scale(1);
   }
-  30% {
+
+  10% {
     transform: translateX(calc(20px * var(--dir)))
       rotate(calc(20deg * var(--dir))) scale(1.2);
   }
-  75% {
+
+  90% {
     transform: translateX(calc(20px * var(--dir)))
       rotate(calc(20deg * var(--dir))) scale(1.2);
   }
+
   100% {
     transform: translateX(0) rotate(0deg) scale(1);
   }
 }
-
 /* tablet */
 @media (max-width: 992px) {
   .about-section {

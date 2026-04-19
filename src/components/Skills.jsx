@@ -34,6 +34,27 @@ function Skills() {
             </div>
           </div>
 
+          {/* <div className="skills-group">
+            <h3 className="skills-subtitle">Other Software:</h3>
+
+            <div className="other-software-row">
+              <div className="logo-grid other-software-grid">
+                {otherSoftware.map((software) => (
+                  <div key={software.id} className="logo-card">
+                    <img src={software.icon} alt={software.name} />
+                    <span>{software.name}</span>
+                  </div>
+                ))}
+              </div>
+
+              <p className="software-text">
+                For productivity and collaboration, I use{" "}
+                <strong>Notion</strong> and{" "}
+                <strong>Microsoft Applications</strong>.
+              </p>
+            </div>
+          </div> */}
+
           <div className="language-column">
             <div className="skills-group">
               <h3 className="skills-subtitle">Front-end Development:</h3>
@@ -45,27 +66,6 @@ function Skills() {
                     <span>{skill.name}</span>
                   </div>
                 ))}
-              </div>
-            </div>
-
-            <div className="skills-group">
-              <h3 className="skills-subtitle">Other Software:</h3>
-
-              <div className="other-software-row">
-                <div className="logo-grid other-software-grid">
-                  {otherSoftware.map((software) => (
-                    <div key={software.id} className="logo-card">
-                      <img src={software.icon} alt={software.name} />
-                      <span>{software.name}</span>
-                    </div>
-                  ))}
-                </div>
-
-                <p className="software-text">
-                  For productivity and collaboration, I use{" "}
-                  <strong>Notion</strong> and{" "}
-                  <strong>Microsoft Applications</strong>.
-                </p>
               </div>
             </div>
           </div>

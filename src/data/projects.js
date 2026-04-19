@@ -31,17 +31,19 @@ const projects = [
   },
   {
     id: 4,
-    title: "Project 04",
-    description: "Layout and graphic content for publication.",
+    title: "Promotional Posters",
+    description:
+      "Promotional posters for a small business in San Pablo - laundry shop and beverage shop.",
     image: project4,
     category: "graphic",
   },
   {
     id: 5,
-    title: "Project 05",
-    description: "Layout and graphic content for publication.",
+    title: "Novara E-Library",
+    description:
+      "An all-in-one reading tracker and e-library designed to help users monitor progress, build habits, and keep their book collection organized.",
     image: project5,
-    category: "graphic",
+    category: "uiux",
   },
 ];
 

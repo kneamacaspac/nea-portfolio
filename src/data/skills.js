@@ -7,6 +7,9 @@ import javascript from "../assets/images/icons/javascript.png";
 import react from "../assets/images/icons/react.png";
 import notion from "../assets/images/icons/notion.png";
 import office from "../assets/images/icons/office.png";
+import java from "../assets/images/icons/java.png";
+import python from "../assets/images/icons/python.png";
+import xml from "../assets/images/icons/xml.png";
 
 export const designTools = [
   { id: 1, name: "Canva", icon: canva, level: 92 },
@@ -19,6 +22,9 @@ export const programmingSkills = [
   { id: 5, name: "CSS", icon: css },
   { id: 6, name: "JavaScript", icon: javascript },
   { id: 7, name: "React", icon: react },
+  { id: 7, name: "Java", icon: java },
+  { id: 7, name: "Python", icon: python },
+  { id: 7, name: "XML", icon: xml },
 ];
 
 export const otherSoftware = [
