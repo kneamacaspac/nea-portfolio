@@ -1,6 +1,7 @@
 .about-section {
   padding-bottom: 0;
   width: 100%;
+  overflow: hidden;
 }
 
 .about-card {
@@ -87,6 +88,7 @@
 .animated-about-div,
 .animated-about-div-2 {
   position: absolute;
+
   width: clamp(110px, 20vw, 220px);
   border-radius: var(--radius-md);
   z-index: 1;

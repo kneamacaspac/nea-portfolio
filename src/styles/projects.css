@@ -113,6 +113,10 @@
     border-radius: 10px;
   }
 
+  motion.img {
+    scale: 1;
+  }
+
   .project-card p {
     font-size: clamp(0.7rem, 2vw, 1.2rem);
   }
@@ -120,8 +124,11 @@
 
 /* small phones */
 @media (max-width: 480px) {
-    h2.section-title {
+  h2.section-title {
     margin-bottom: 0;
+  }
+  motion.img {
+    scale: 1;
   }
 
   .project-card {

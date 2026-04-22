@@ -123,3 +123,25 @@
   transform: scale(1.05);
   box-shadow: 0 0 10px rgba(161, 0, 255, 0.4);
 }
+
+/* mobile */
+@media (max-width: 768px) {
+  .contact-card {
+    padding: 12px 14px 18px;
+  }
+
+  .contact-form {
+    padding: 14px;
+  }
+}
+
+/* small phones */
+@media (max-width: 480px) {
+  .contact-card {
+    padding: 12px 14px 18px;
+  }
+
+  .contact-form {
+    padding: 14px;
+  }
+}
